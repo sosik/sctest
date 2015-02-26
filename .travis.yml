@@ -7,3 +7,7 @@ addons:
 
 before_install:
     "npm install -g grunt-cli"
+
+before_script:
+    - "./node_modules/.bin/webdriver-manager update"
+
