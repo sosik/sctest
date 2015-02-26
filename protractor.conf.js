@@ -1,7 +1,9 @@
 var config = {};
 
 config.baseUrl = 'http://localhost:3000/';
-config.capabilities = {};
+config.capabilities = {
+	browserName: 'safari'
+};
 
         config.sauceUser = process.env.SAUCE_USERNAME;
         config.sauceKey = process.env.SAUCE_ACCESS_KEY;
