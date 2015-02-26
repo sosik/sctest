@@ -1,7 +1,7 @@
 {
   "name": "sctest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test",
   "main": "index.js",
   "dependencies": {
     "express": "^4.12.0"
